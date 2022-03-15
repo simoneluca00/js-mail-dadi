@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(247, 57, 57, 0.3);
+}
+
+/* utility */
+.t-center {
+    text-align: center;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.row_number {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 70px 0;
+}
+
+.row_number > div {
+    font-size: 2em;
+}
+
+#numero_giocatore,
+#numero_computer {
+    color: rgb(247, 57, 57);
+    font-weight: bold;
+}
+
+div#result {
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+span.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: rgb(220, 20, 60);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(170, 17, 48);
+    cursor: pointer;
+}
