@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p#email_control {
+    font-size: 2.5em;
+}
+
+.sz_email {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0099cc;
+    cursor: pointer;
+}
