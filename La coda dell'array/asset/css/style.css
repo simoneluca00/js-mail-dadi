@@ -22,14 +22,13 @@ div#containerListThree {
 div#containerListOne {
     width: 80%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
     text-transform: capitalize;
 }
 
 div.strumento {
-    width: 150px;
     height: 50px;
     background-color: cornflowerblue;
     display: flex;
@@ -40,7 +39,7 @@ div.strumento {
 
 /* EXTRA BONUS */
 div#containerListTwo {
-    padding: 0 30px;
+    padding: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     gap: 30px;
@@ -51,3 +50,5 @@ div.numeri_random {
     text-align: center;
     background-color: sandybrown;
 }
+
+/* SUPER EXTRA BONUS */
