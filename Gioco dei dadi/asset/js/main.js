@@ -9,8 +9,8 @@ let btnGioca = document.getElementById("btnGioca");
 
 btnGioca.addEventListener("click",
     function() {
-        // 4) Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 
+        // 4) Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
         let numeriDado = [1, 2, 3, 4, 5, 6];
         
         // 4.1) numero casuale per il giocatore
