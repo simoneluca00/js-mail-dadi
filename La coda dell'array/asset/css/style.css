@@ -38,7 +38,9 @@ div.strumento {
 }
 
 /* EXTRA BONUS */
-div#containerListTwo {
+div#containerListTwo,
+div#containerListThree,
+div#containerListThreeExtract {
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
@@ -49,6 +51,19 @@ div.numeri_random {
     padding: 30px 0;
     text-align: center;
     background-color: sandybrown;
+    font-size: 1.7em;
 }
 
 /* SUPER EXTRA BONUS */
+
+h2 {
+    margin-left: 20px;
+    padding: 30px;
+}
+
+div.numeri_estrazione {
+    padding: 30px 0;
+    text-align: center;
+    background-color:palegreen;
+    font-size: 1.7em;
+}
